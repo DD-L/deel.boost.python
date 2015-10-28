@@ -5,20 +5,20 @@
 #ifndef TO_PYTHON_VALUE_DWA200221_HPP
 # define TO_PYTHON_VALUE_DWA200221_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/refcount.hpp>
-# include <boost/python/tag.hpp>
-# include <boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/refcount.hpp>
+# include <deel.boost.python/revise/boost/python/tag.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
 
-# include <boost/python/converter/registry.hpp>
-# include <boost/python/converter/registered.hpp>
-# include <boost/python/converter/builtin_converters.hpp>
-# include <boost/python/converter/object_manager.hpp>
-# include <boost/python/converter/shared_ptr_to_python.hpp>
+# include <deel.boost.python/revise/boost/python/converter/registry.hpp>
+# include <deel.boost.python/revise/boost/python/converter/registered.hpp>
+# include <deel.boost.python/revise/boost/python/converter/builtin_converters.hpp>
+# include <deel.boost.python/revise/boost/python/converter/object_manager.hpp>
+# include <deel.boost.python/revise/boost/python/converter/shared_ptr_to_python.hpp>
 
-# include <boost/python/detail/value_is_shared_ptr.hpp>
-# include <boost/python/detail/value_arg.hpp>
+# include <deel.boost.python/revise/boost/python/detail/value_is_shared_ptr.hpp>
+# include <deel.boost.python/revise/boost/python/detail/value_arg.hpp>
 
 # include <boost/type_traits/transform_traits.hpp>
 

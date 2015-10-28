@@ -8,14 +8,14 @@
 # ifndef OPAQUE_POINTER_CONVERTER_HPP_
 # define OPAQUE_POINTER_CONVERTER_HPP_
 
-# include <boost/python/detail/prefix.hpp>
-# include <boost/python/lvalue_from_pytype.hpp>
-# include <boost/python/to_python_converter.hpp>
-# include <boost/python/converter/registrations.hpp>
-# include <boost/python/detail/dealloc.hpp>
-# include <boost/python/detail/none.hpp>
-# include <boost/python/type_id.hpp>
-# include <boost/python/errors.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/lvalue_from_pytype.hpp>
+# include <deel.boost.python/revise/boost/python/to_python_converter.hpp>
+# include <deel.boost.python/revise/boost/python/converter/registrations.hpp>
+# include <deel.boost.python/revise/boost/python/detail/dealloc.hpp>
+# include <deel.boost.python/revise/boost/python/detail/none.hpp>
+# include <deel.boost.python/revise/boost/python/type_id.hpp>
+# include <deel.boost.python/revise/boost/python/errors.hpp>
 
 # include <boost/type_traits/remove_pointer.hpp>
 # include <boost/type_traits/is_pointer.hpp>

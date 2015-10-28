@@ -5,9 +5,9 @@
 #ifndef CLASS_WRAPPER_DWA20011221_HPP
 # define CLASS_WRAPPER_DWA20011221_HPP
 
-# include <boost/python/to_python_converter.hpp>
+# include <deel.boost.python/revise/boost/python/to_python_converter.hpp>
 #ifndef BOOST_PYTHON_NO_PY_SIGNATURES
-# include <boost/python/converter/pytype_function.hpp>
+# include <deel.boost.python/revise/boost/python/converter/pytype_function.hpp>
 #endif
 # include <boost/ref.hpp>
 

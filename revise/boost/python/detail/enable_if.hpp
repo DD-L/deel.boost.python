@@ -4,7 +4,7 @@
 #ifndef ENABLE_IF_DWA2004722_HPP
 # define ENABLE_IF_DWA2004722_HPP
 
-# include <boost/python/detail/sfinae.hpp>
+# include <deel.boost.python/revise/boost/python/detail/sfinae.hpp>
 # include <boost/detail/workaround.hpp>
 
 #if !defined(BOOST_NO_SFINAE)

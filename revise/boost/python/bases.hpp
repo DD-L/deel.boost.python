@@ -5,9 +5,9 @@
 #ifndef BASES_DWA2002321_HPP
 # define BASES_DWA2002321_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 # include <boost/type_traits/object_traits.hpp>
-# include <boost/python/detail/type_list.hpp>
+# include <deel.boost.python/revise/boost/python/detail/type_list.hpp>
 # include <boost/mpl/if.hpp>
 # include <boost/mpl/bool.hpp>
 # include <boost/preprocessor/enum_params_with_a_default.hpp>

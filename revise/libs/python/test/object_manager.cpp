@@ -2,10 +2,10 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/converter/object_manager.hpp>
-#include <boost/python/borrowed.hpp>
+#include <deel.boost.python/revise/boost/python/converter/object_manager.hpp>
+#include <deel.boost.python/revise/boost/python/borrowed.hpp>
 #include <boost/static_assert.hpp>
-#include <boost/python/handle.hpp>
+#include <deel.boost.python/revise/boost/python/handle.hpp>
 
 using namespace boost::python;
 using namespace boost::python::converter;

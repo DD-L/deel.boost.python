@@ -5,13 +5,13 @@
 #ifndef REGISTRATIONS_DWA2002223_HPP
 # define REGISTRATIONS_DWA2002223_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/type_id.hpp>
+# include <deel.boost.python/revise/boost/python/type_id.hpp>
 
-# include <boost/python/converter/convertible_function.hpp>
-# include <boost/python/converter/constructor_function.hpp>
-# include <boost/python/converter/to_python_function_type.hpp>
+# include <deel.boost.python/revise/boost/python/converter/convertible_function.hpp>
+# include <deel.boost.python/revise/boost/python/converter/constructor_function.hpp>
+# include <deel.boost.python/revise/boost/python/converter/to_python_function_type.hpp>
 
 # include <boost/detail/workaround.hpp>
 

@@ -5,15 +5,15 @@
 #ifndef HANDLE_DWA200269_HPP
 # define HANDLE_DWA200269_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/cast.hpp>
-# include <boost/python/errors.hpp>
-# include <boost/python/borrowed.hpp>
-# include <boost/python/handle_fwd.hpp>
-# include <boost/python/refcount.hpp>
-# include <boost/python/tag.hpp>
-# include <boost/python/detail/raw_pyobject.hpp>
+# include <deel.boost.python/revise/boost/python/cast.hpp>
+# include <deel.boost.python/revise/boost/python/errors.hpp>
+# include <deel.boost.python/revise/boost/python/borrowed.hpp>
+# include <deel.boost.python/revise/boost/python/handle_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/refcount.hpp>
+# include <deel.boost.python/revise/boost/python/tag.hpp>
+# include <deel.boost.python/revise/boost/python/detail/raw_pyobject.hpp>
 
 namespace boost { namespace python { 
 

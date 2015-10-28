@@ -3,10 +3,10 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/class.hpp>
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/call_method.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/call_method.hpp>
 #include <boost/ref.hpp>
 #include <boost/utility.hpp>
 #define BOOST_ENABLE_ASSERT_HANDLER

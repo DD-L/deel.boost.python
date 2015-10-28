@@ -5,31 +5,31 @@
 #ifndef CLASS_DWA200216_HPP
 # define CLASS_DWA200216_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
 # include <boost/noncopyable.hpp>
 
-# include <boost/python/class_fwd.hpp>
-# include <boost/python/object/class.hpp>
+# include <deel.boost.python/revise/boost/python/class_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/object/class.hpp>
 
-# include <boost/python/object.hpp>
-# include <boost/python/type_id.hpp>
-# include <boost/python/data_members.hpp>
-# include <boost/python/make_function.hpp>
-# include <boost/python/signature.hpp>
-# include <boost/python/init.hpp>
-# include <boost/python/args_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/object.hpp>
+# include <deel.boost.python/revise/boost/python/type_id.hpp>
+# include <deel.boost.python/revise/boost/python/data_members.hpp>
+# include <deel.boost.python/revise/boost/python/make_function.hpp>
+# include <deel.boost.python/revise/boost/python/signature.hpp>
+# include <deel.boost.python/revise/boost/python/init.hpp>
+# include <deel.boost.python/revise/boost/python/args_fwd.hpp>
 
-# include <boost/python/object/class_metadata.hpp>
-# include <boost/python/object/pickle_support.hpp>
-# include <boost/python/object/add_to_namespace.hpp>
+# include <deel.boost.python/revise/boost/python/object/class_metadata.hpp>
+# include <deel.boost.python/revise/boost/python/object/pickle_support.hpp>
+# include <deel.boost.python/revise/boost/python/object/add_to_namespace.hpp>
 
-# include <boost/python/detail/overloads_fwd.hpp>
-# include <boost/python/detail/operator_id.hpp>
-# include <boost/python/detail/def_helper.hpp>
-# include <boost/python/detail/force_instantiate.hpp>
-# include <boost/python/detail/unwrap_type_id.hpp>
-# include <boost/python/detail/unwrap_wrapper.hpp>
+# include <deel.boost.python/revise/boost/python/detail/overloads_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/detail/operator_id.hpp>
+# include <deel.boost.python/revise/boost/python/detail/def_helper.hpp>
+# include <deel.boost.python/revise/boost/python/detail/force_instantiate.hpp>
+# include <deel.boost.python/revise/boost/python/detail/unwrap_type_id.hpp>
+# include <deel.boost.python/revise/boost/python/detail/unwrap_wrapper.hpp>
 
 # include <boost/type_traits/is_same.hpp>
 # include <boost/type_traits/is_member_function_pointer.hpp>
@@ -141,8 +141,10 @@ namespace detail
             //typedef typename assertion<mpl::not_<is_same<Default,Fn> > >::failed test0;
 # if !BOOST_WORKAROUND(__MWERKS__, <= 0x2407)
             typedef typename assertion<is_polymorphic<T> >::failed test1;
+			test1* __cleanwarning1 = NULL; if (__cleanwarning1); // by D_L
 # endif 
             typedef typename assertion<is_member_function_pointer<Fn> >::failed test2;
+			test2* __cleanwarning2 = NULL; if (__cleanwarning2); // by D_L
             not_a_derived_class_member<Default>(Fn());
         }
     };

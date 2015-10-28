@@ -5,9 +5,9 @@
 #ifndef TYPE_ID_DWA2002517_HPP
 # define TYPE_ID_DWA2002517_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/detail/msvc_typeinfo.hpp>
+# include <deel.boost.python/revise/boost/python/detail/msvc_typeinfo.hpp>
 # include <boost/operators.hpp>
 # include <typeinfo>
 # include <cstring>

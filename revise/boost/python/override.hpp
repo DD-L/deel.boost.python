@@ -6,12 +6,12 @@
 #ifndef OVERRIDE_DWA2004721_HPP
 # define OVERRIDE_DWA2004721_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/converter/return_from_python.hpp>
+# include <deel.boost.python/revise/boost/python/converter/return_from_python.hpp>
 
-# include <boost/python/extract.hpp>
-# include <boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/extract.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
 
 #  include <boost/preprocessor/iterate.hpp>
 #  include <boost/preprocessor/repeat.hpp>

@@ -5,7 +5,7 @@
 #ifndef BOOST_PYTHON_OBJECT_PICKLE_SUPPORT_RWGK20020603_HPP
 # define BOOST_PYTHON_OBJECT_PICKLE_SUPPORT_RWGK20020603_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
 namespace boost { namespace python {
 
@@ -108,6 +108,7 @@ namespace detail {
       typedef typename
         error_messages::missing_pickle_suite_function_or_incorrect_signature<
           Class_>::error_type error_type;
+      error_type* __cleanwarning = NULL; if (__cleanwarning); // by D_L
     }
   };
 

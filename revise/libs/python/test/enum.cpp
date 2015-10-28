@@ -2,10 +2,10 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/enum.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/enum.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
 #if BOOST_WORKAROUND(__MWERKS__, <= 0x2407)
 # include <boost/type_traits/is_enum.hpp>
 # include <boost/mpl/bool.hpp>

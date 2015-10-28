@@ -11,16 +11,16 @@
 # include <boost/get_pointer.hpp>
 #  include <boost/type.hpp>
 
-#  include <boost/python/instance_holder.hpp>
-#  include <boost/python/object/inheritance_query.hpp>
-#  include <boost/python/object/forward.hpp>
+#  include <deel.boost.python/revise/boost/python/instance_holder.hpp>
+#  include <deel.boost.python/revise/boost/python/object/inheritance_query.hpp>
+#  include <deel.boost.python/revise/boost/python/object/forward.hpp>
 
-#  include <boost/python/pointee.hpp>
-#  include <boost/python/type_id.hpp>
+#  include <deel.boost.python/revise/boost/python/pointee.hpp>
+#  include <deel.boost.python/revise/boost/python/type_id.hpp>
 
-#  include <boost/python/detail/wrapper_base.hpp>
-#  include <boost/python/detail/force_instantiate.hpp>
-#  include <boost/python/detail/preprocessor.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/wrapper_base.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/force_instantiate.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
 
 
 #  include <boost/mpl/if.hpp>

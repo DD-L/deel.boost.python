@@ -5,12 +5,12 @@
 #ifndef FUNCTION_SIGNATURE_20070531_HPP
 # define FUNCTION_SIGNATURE_20070531_HPP
 
-#include <boost/python/object/function.hpp>
-#include <boost/python/converter/registrations.hpp>
-#include <boost/python/str.hpp>
-#include <boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/object/function.hpp>
+#include <deel.boost.python/revise/boost/python/converter/registrations.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
 
-#include <boost/python/detail/signature.hpp>
+#include <deel.boost.python/revise/boost/python/detail/signature.hpp>
 
 
 #include <vector>

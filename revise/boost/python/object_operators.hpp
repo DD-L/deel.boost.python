@@ -5,10 +5,10 @@
 #ifndef OBJECT_OPERATORS_DWA2002617_HPP
 # define OBJECT_OPERATORS_DWA2002617_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/object_core.hpp>
-# include <boost/python/call.hpp>
+# include <deel.boost.python/revise/boost/python/object_core.hpp>
+# include <deel.boost.python/revise/boost/python/call.hpp>
 # include <boost/iterator/detail/enable_if.hpp>
 # include <boost/mpl/bool.hpp>
 

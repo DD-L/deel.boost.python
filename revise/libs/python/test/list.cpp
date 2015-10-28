@@ -3,13 +3,13 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/list.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/dict.hpp>
-#include <boost/python/make_function.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/list.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/dict.hpp>
+#include <deel.boost.python/revise/boost/python/make_function.hpp>
 #include <boost/lexical_cast.hpp>
 #define BOOST_ENABLE_ASSERT_HANDLER
 #include <boost/assert.hpp>

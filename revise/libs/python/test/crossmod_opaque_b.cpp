@@ -2,10 +2,10 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-# include <boost/python/return_opaque_pointer.hpp>
-# include <boost/python/def.hpp>
-# include <boost/python/module.hpp>
-# include <boost/python/return_value_policy.hpp>
+# include <deel.boost.python/revise/boost/python/return_opaque_pointer.hpp>
+# include <deel.boost.python/revise/boost/python/def.hpp>
+# include <deel.boost.python/revise/boost/python/module.hpp>
+# include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
 
 typedef struct opaque_ *opaque;
 

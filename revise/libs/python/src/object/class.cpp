@@ -3,24 +3,24 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/detail/prefix.hpp>
+#include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 #include <boost/mpl/lambda.hpp> // #including this first is an intel6 workaround
 
-#include <boost/python/object/class.hpp>
-#include <boost/python/object/instance.hpp>
-#include <boost/python/object/class_detail.hpp>
-#include <boost/python/scope.hpp>
-#include <boost/python/converter/registry.hpp>
-#include <boost/python/object/find_instance.hpp>
-#include <boost/python/object/pickle_support.hpp>
-#include <boost/python/detail/map_entry.hpp>
-#include <boost/python/object.hpp>
-#include <boost/python/object_protocol.hpp>
+#include <deel.boost.python/revise/boost/python/object/class.hpp>
+#include <deel.boost.python/revise/boost/python/object/instance.hpp>
+#include <deel.boost.python/revise/boost/python/object/class_detail.hpp>
+#include <deel.boost.python/revise/boost/python/scope.hpp>
+#include <deel.boost.python/revise/boost/python/converter/registry.hpp>
+#include <deel.boost.python/revise/boost/python/object/find_instance.hpp>
+#include <deel.boost.python/revise/boost/python/object/pickle_support.hpp>
+#include <deel.boost.python/revise/boost/python/detail/map_entry.hpp>
+#include <deel.boost.python/revise/boost/python/object.hpp>
+#include <deel.boost.python/revise/boost/python/object_protocol.hpp>
 #include <boost/detail/binary_search.hpp>
-#include <boost/python/self.hpp>
-#include <boost/python/dict.hpp>
-#include <boost/python/str.hpp>
-#include <boost/python/ssize_t.hpp>
+#include <deel.boost.python/revise/boost/python/self.hpp>
+#include <deel.boost.python/revise/boost/python/dict.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/ssize_t.hpp>
 #include <functional>
 #include <vector>
 #include <cstddef>

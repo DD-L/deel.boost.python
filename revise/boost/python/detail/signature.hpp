@@ -8,11 +8,11 @@
 # ifndef SIGNATURE_DWA20021121_HPP
 #  define SIGNATURE_DWA20021121_HPP
 
-#  include <boost/python/type_id.hpp>
+#  include <deel.boost.python/revise/boost/python/type_id.hpp>
 
-#  include <boost/python/detail/preprocessor.hpp>
-#  include <boost/python/detail/indirect_traits.hpp>
-#  include <boost/python/converter/pytype_function.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/indirect_traits.hpp>
+#  include <deel.boost.python/revise/boost/python/converter/pytype_function.hpp>
 
 #  include <boost/preprocessor/iterate.hpp>
 #  include <boost/preprocessor/iteration/local.hpp>

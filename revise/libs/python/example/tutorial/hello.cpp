@@ -4,8 +4,8 @@
 //  Hello World Example from the tutorial
 //  [Joel de Guzman 10/9/2002]
 
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
 
 char const* greet()
 {

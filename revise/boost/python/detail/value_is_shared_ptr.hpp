@@ -5,7 +5,7 @@
 #ifndef VALUE_IS_SHARED_PTR_DWA2003224_HPP
 # define VALUE_IS_SHARED_PTR_DWA2003224_HPP
 
-# include <boost/python/detail/value_is_xxx.hpp>
+# include <deel.boost.python/revise/boost/python/detail/value_is_xxx.hpp>
 # include <boost/shared_ptr.hpp>
 
 namespace boost { namespace python { namespace detail { 

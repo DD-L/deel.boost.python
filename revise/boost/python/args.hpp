@@ -5,12 +5,12 @@
 #ifndef KEYWORDS_DWA2002323_HPP
 # define KEYWORDS_DWA2002323_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/args_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/args_fwd.hpp>
 # include <boost/config.hpp>
-# include <boost/python/detail/preprocessor.hpp>
-# include <boost/python/detail/type_list.hpp>
+# include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
+# include <deel.boost.python/revise/boost/python/detail/type_list.hpp>
 
 # include <boost/type_traits/is_reference.hpp>
 # include <boost/type_traits/remove_reference.hpp>
@@ -21,8 +21,8 @@
 # include <boost/preprocessor/facilities/intercept.hpp>
 # include <boost/preprocessor/iteration/local.hpp>
 
-# include <boost/python/detail/mpl_lambda.hpp>
-# include <boost/python/object_core.hpp>
+# include <deel.boost.python/revise/boost/python/detail/mpl_lambda.hpp>
+# include <deel.boost.python/revise/boost/python/object_core.hpp>
 
 # include <boost/mpl/bool.hpp>
 

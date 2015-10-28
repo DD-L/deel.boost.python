@@ -3,13 +3,13 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
 #include "test_class.hpp"
 #include <memory>
 #include <boost/shared_ptr.hpp>
-#include <boost/python/make_constructor.hpp>
-#include <boost/python/args.hpp>
+#include <deel.boost.python/revise/boost/python/make_constructor.hpp>
+#include <deel.boost.python/revise/boost/python/args.hpp>
 
 using namespace boost::python;
 

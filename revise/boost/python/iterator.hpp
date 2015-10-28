@@ -5,11 +5,11 @@
 #ifndef ITERATOR_DWA2002512_HPP
 # define ITERATOR_DWA2002512_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/detail/target.hpp>
-# include <boost/python/object/iterator.hpp>
-# include <boost/python/object_core.hpp>
+# include <deel.boost.python/revise/boost/python/detail/target.hpp>
+# include <deel.boost.python/revise/boost/python/object/iterator.hpp>
+# include <deel.boost.python/revise/boost/python/object_core.hpp>
 
 # include <boost/type_traits/cv_traits.hpp>
 # include <boost/type_traits/transform_traits.hpp>

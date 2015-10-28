@@ -5,13 +5,17 @@
 #ifndef INSTANCE_DWA200295_HPP
 # define INSTANCE_DWA200295_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 # include <boost/type_traits/alignment_traits.hpp>
 # include <cstddef>
 
 namespace boost { namespace python
 {
+#ifdef __CYGWIN__                                  // by D_L
+  struct instance_holder;                          // by D_L
+#else                                              // by D_L
   struct BOOST_PYTHON_DECL_FORWARD instance_holder;
+#endif                                             // by D_L
 }} // namespace boost::python
 
 namespace boost { namespace python { namespace objects { 

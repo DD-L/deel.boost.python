@@ -9,10 +9,10 @@
 
 # include <utility>
 # include <boost/foreach.hpp>
-# include <boost/python/object.hpp>
-# include <boost/python/handle.hpp>
-# include <boost/python/extract.hpp>
-# include <boost/python/stl_iterator.hpp>
+# include <deel.boost.python/revise/boost/python/object.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/extract.hpp>
+# include <deel.boost.python/revise/boost/python/stl_iterator.hpp>
 
 namespace boost { namespace python { namespace container_utils {
         

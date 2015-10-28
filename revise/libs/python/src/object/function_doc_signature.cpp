@@ -6,14 +6,14 @@
 // boost::python::make_tuple below are for gcc 4.4 -std=c++0x compatibility
 // (Intel C++ 10 and 11 with -std=c++0x don't need the full qualification).
 
-#include <boost/python/converter/registrations.hpp>
-#include <boost/python/object/function_doc_signature.hpp>
-#include <boost/python/errors.hpp>
-#include <boost/python/str.hpp>
-#include <boost/python/args.hpp>
-#include <boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/converter/registrations.hpp>
+#include <deel.boost.python/revise/boost/python/object/function_doc_signature.hpp>
+#include <deel.boost.python/revise/boost/python/errors.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/args.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
 
-#include <boost/python/detail/signature.hpp>
+#include <deel.boost.python/revise/boost/python/detail/signature.hpp>
 
 #include <vector>
 

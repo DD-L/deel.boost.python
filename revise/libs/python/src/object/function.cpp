@@ -3,22 +3,22 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/docstring_options.hpp>
-#include <boost/python/object/function_object.hpp>
-#include <boost/python/object/function_handle.hpp>
-#include <boost/python/object/function_doc_signature.hpp>
-#include <boost/python/errors.hpp>
-#include <boost/python/str.hpp>
-#include <boost/python/object_attributes.hpp>
-#include <boost/python/args.hpp>
-#include <boost/python/refcount.hpp>
-#include <boost/python/extract.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/list.hpp>
-#include <boost/python/ssize_t.hpp>
+#include <deel.boost.python/revise/boost/python/docstring_options.hpp>
+#include <deel.boost.python/revise/boost/python/object/function_object.hpp>
+#include <deel.boost.python/revise/boost/python/object/function_handle.hpp>
+#include <deel.boost.python/revise/boost/python/object/function_doc_signature.hpp>
+#include <deel.boost.python/revise/boost/python/errors.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/object_attributes.hpp>
+#include <deel.boost.python/revise/boost/python/args.hpp>
+#include <deel.boost.python/revise/boost/python/refcount.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/list.hpp>
+#include <deel.boost.python/revise/boost/python/ssize_t.hpp>
 
-#include <boost/python/detail/signature.hpp>
-#include <boost/python/detail/none.hpp>
+#include <deel.boost.python/revise/boost/python/detail/signature.hpp>
+#include <deel.boost.python/revise/boost/python/detail/none.hpp>
 #include <boost/mpl/vector/vector10.hpp>
 
 #include <boost/bind.hpp>

@@ -3,15 +3,15 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/converter/from_python.hpp>
-#include <boost/python/converter/registrations.hpp>
-#include <boost/python/converter/rvalue_from_python_data.hpp>
+#include <deel.boost.python/revise/boost/python/converter/from_python.hpp>
+#include <deel.boost.python/revise/boost/python/converter/registrations.hpp>
+#include <deel.boost.python/revise/boost/python/converter/rvalue_from_python_data.hpp>
 
-#include <boost/python/object/find_instance.hpp>
+#include <deel.boost.python/revise/boost/python/object/find_instance.hpp>
 
-#include <boost/python/handle.hpp>
-#include <boost/python/detail/raw_pyobject.hpp>
-#include <boost/python/cast.hpp>
+#include <deel.boost.python/revise/boost/python/handle.hpp>
+#include <deel.boost.python/revise/boost/python/detail/raw_pyobject.hpp>
+#include <deel.boost.python/revise/boost/python/cast.hpp>
 
 #include <vector>
 #include <algorithm>

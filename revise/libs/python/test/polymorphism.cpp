@@ -2,14 +2,14 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/return_value_policy.hpp>
-#include <boost/python/manage_new_object.hpp>
-#include <boost/python/reference_existing_object.hpp>
-#include <boost/python/call_method.hpp>
-#include <boost/python/pure_virtual.hpp>
-#include <boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
+#include <deel.boost.python/revise/boost/python/manage_new_object.hpp>
+#include <deel.boost.python/revise/boost/python/reference_existing_object.hpp>
+#include <deel.boost.python/revise/boost/python/call_method.hpp>
+#include <deel.boost.python/revise/boost/python/pure_virtual.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
 #include <boost/utility.hpp>
 
 using namespace boost::python;

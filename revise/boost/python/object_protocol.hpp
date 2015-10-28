@@ -5,10 +5,10 @@
 #ifndef OBJECT_PROTOCOL_DWA2002615_HPP
 # define OBJECT_PROTOCOL_DWA2002615_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/object_protocol_core.hpp>
-# include <boost/python/object_core.hpp>
+# include <deel.boost.python/revise/boost/python/object_protocol_core.hpp>
+# include <deel.boost.python/revise/boost/python/object_core.hpp>
 
 # include <boost/detail/workaround.hpp>
 

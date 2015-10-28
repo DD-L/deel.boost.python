@@ -7,7 +7,7 @@
 #define WRAPPER_TEST_WRAPPERS 
 
 #include <vector>
-#include <boost/python.hpp>
+#include <deel.boost.python/revise/boost/python.hpp>
 #include "wrappertest.h"
 
 using namespace boost::python;

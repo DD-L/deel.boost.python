@@ -22,7 +22,7 @@
 #define BOOST_PYTHON_ENABLE_FASTCALL
 #include <boost/preprocessor/cat.hpp>
 #include <boost/preprocessor/stringize.hpp>
-#include <boost/python.hpp>
+#include <deel.boost.python/revise/boost/python.hpp>
 using namespace boost::python;
 
 // first define test functions for every calling convention

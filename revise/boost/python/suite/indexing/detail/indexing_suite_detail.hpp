@@ -6,7 +6,7 @@
 #ifndef INDEXING_SUITE_DETAIL_JDG20036_HPP
 # define INDEXING_SUITE_DETAIL_JDG20036_HPP
 
-# include <boost/python/extract.hpp>
+# include <deel.boost.python/revise/boost/python/extract.hpp>
 # include <boost/scoped_ptr.hpp>
 # include <boost/get_pointer.hpp>
 # include <boost/detail/binary_search.hpp>

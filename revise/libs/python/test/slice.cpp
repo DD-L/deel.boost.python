@@ -1,6 +1,6 @@
-#include <boost/python.hpp>
-#include <boost/python/slice.hpp>
-#include <boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python.hpp>
+#include <deel.boost.python/revise/boost/python/slice.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
 #include <vector>
 
 // Copyright (c) 2004 Jonathan Brandmeyer

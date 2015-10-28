@@ -3,13 +3,13 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/def.hpp>
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/list.hpp>
-#include <boost/python/overloads.hpp>
-#include <boost/python/return_internal_reference.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/list.hpp>
+#include <deel.boost.python/revise/boost/python/overloads.hpp>
+#include <deel.boost.python/revise/boost/python/return_internal_reference.hpp>
 
 #if defined(_AIX) && defined(__EDG_VERSION__) && __EDG_VERSION__ < 245
 # include <iostream> // works around a KCC intermediate code generation bug

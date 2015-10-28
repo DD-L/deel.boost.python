@@ -5,13 +5,13 @@
 #ifndef CAST_DWA200269_HPP
 # define CAST_DWA200269_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
 # include <boost/type_traits/same_traits.hpp>
 # include <boost/type_traits/cv_traits.hpp>
 # include <boost/type.hpp>
-# include <boost/python/base_type_traits.hpp>
-# include <boost/python/detail/convertible.hpp>
+# include <deel.boost.python/revise/boost/python/base_type_traits.hpp>
+# include <deel.boost.python/revise/boost/python/detail/convertible.hpp>
 
 namespace boost { namespace python { 
 
@@ -71,6 +71,9 @@ namespace detail
   inline void assert_castable(boost::type<T>* = 0)
   {
       typedef char must_be_a_complete_type[sizeof(T)];
+      //must_be_a_complete_type __cleanwarning; // by D_L
+      must_be_a_complete_type* __cleanwarning = NULL; // by D_L
+      if (__cleanwarning);                            // by D_L
   }
 
   template <class Source, class Target>

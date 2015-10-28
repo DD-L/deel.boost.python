@@ -48,7 +48,7 @@ Function:
 
 can be exposed to Python by writing a Boost.Python wrapper:
 
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
 
     BOOST_PYTHON_MODULE(hello_ext)
     {
@@ -205,7 +205,7 @@ Consider a C++ class/struct that we want to expose to Python:
 We can expose this to Python by writing a corresponding Boost.Python
 C++ Wrapper:
 
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
     using namespace boost::python;
 
     BOOST_PYTHON_MODULE(hello)
@@ -255,7 +255,7 @@ wrapping code would fail to compile when the library tried to expose
 it. We have to tell [^class_<World>] about the constructor we want to
 expose instead.
 
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
     using namespace boost::python;
 
     BOOST_PYTHON_MODULE(hello)
@@ -1924,7 +1924,7 @@ class_ definitions in multiple files:
 
     /* file point.cpp */
     #include <point.h>
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
 
     void export_point()
     {
@@ -1933,7 +1933,7 @@ class_ definitions in multiple files:
 
     /* file triangle.cpp */
     #include <triangle.h>
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
 
     void export_triangle()
     {
@@ -1955,7 +1955,7 @@ macro, and call the various export functions inside it.
 Compiling and linking together all this files produces the same result as the
 usual approach:
 
-    #include <boost/python.hpp>
+    #include <deel.boost.python/revise/boost/python.hpp>
     #include <point.h>
     #include <triangle.h>
 

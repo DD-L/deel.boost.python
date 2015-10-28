@@ -5,12 +5,12 @@
 #ifndef OBJECT_MANAGER_DWA2002614_HPP
 # define OBJECT_MANAGER_DWA2002614_HPP
 
-# include <boost/python/handle.hpp>
-# include <boost/python/cast.hpp>
-# include <boost/python/converter/pyobject_traits.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/cast.hpp>
+# include <deel.boost.python/revise/boost/python/converter/pyobject_traits.hpp>
 # include <boost/type_traits/object_traits.hpp>
 # include <boost/mpl/if.hpp>
-# include <boost/python/detail/indirect_traits.hpp>
+# include <deel.boost.python/revise/boost/python/detail/indirect_traits.hpp>
 # include <boost/mpl/bool.hpp>
 
 // Facilities for dealing with types which always manage Python

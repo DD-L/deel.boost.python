@@ -116,7 +116,7 @@ class MultipleCodeUnit(object):
         filename = os.path.join(self.outdir, '_main.cpp')
         fout = SmartFile(filename, 'w')
         fout.write(utils.left_equals('Include'))
-        fout.write('#include <boost/python/module.hpp>\n\n')
+        fout.write('#include <deel.boost.python/revise/boost/python/module.hpp>\n\n')
         fout.write(utils.left_equals('Exports'))
         functions = [self._FunctionName(x) for x in interfaces]
         for function in functions:

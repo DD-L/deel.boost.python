@@ -6,10 +6,10 @@
 #ifndef MAP_INDEXING_SUITE_JDG20038_HPP
 # define MAP_INDEXING_SUITE_JDG20038_HPP
 
-# include <boost/python/suite/indexing/indexing_suite.hpp>
-# include <boost/python/iterator.hpp>
-# include <boost/python/call_method.hpp>
-# include <boost/python/tuple.hpp>
+# include <deel.boost.python/revise/boost/python/suite/indexing/indexing_suite.hpp>
+# include <deel.boost.python/revise/boost/python/iterator.hpp>
+# include <deel.boost.python/revise/boost/python/call_method.hpp>
+# include <deel.boost.python/revise/boost/python/tuple.hpp>
 
 namespace boost { namespace python {
 

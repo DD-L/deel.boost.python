@@ -10,8 +10,8 @@
 # include <boost/type_traits/add_const.hpp>
 # include <boost/type_traits/add_reference.hpp>
 # include <boost/ref.hpp>
-# include <boost/python/detail/value_arg.hpp>
-# include <boost/python/detail/copy_ctor_mutates_rhs.hpp>
+# include <deel.boost.python/revise/boost/python/detail/value_arg.hpp>
+# include <deel.boost.python/revise/boost/python/detail/copy_ctor_mutates_rhs.hpp>
 # include <boost/mpl/or.hpp>
 
 namespace boost { namespace python { namespace objects { 

@@ -8,16 +8,16 @@
 # ifndef MAKE_HOLDER_DWA20011215_HPP
 #  define MAKE_HOLDER_DWA20011215_HPP
 
-#  include <boost/python/detail/prefix.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-#  include <boost/python/object/instance.hpp>
-#  include <boost/python/converter/registry.hpp>
+#  include <deel.boost.python/revise/boost/python/object/instance.hpp>
+#  include <deel.boost.python/revise/boost/python/converter/registry.hpp>
 #if !defined( BOOST_PYTHON_NO_PY_SIGNATURES) && defined( BOOST_PYTHON_PY_SIGNATURES_PROPER_INIT_SELF_TYPE)
-#  include <boost/python/detail/python_type.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/python_type.hpp>
 #endif
 
-#  include <boost/python/object/forward.hpp>
-#  include <boost/python/detail/preprocessor.hpp>
+#  include <deel.boost.python/revise/boost/python/object/forward.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
 
 #  include <boost/mpl/next.hpp>
 #  include <boost/mpl/begin_end.hpp>

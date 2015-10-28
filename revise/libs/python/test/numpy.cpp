@@ -3,11 +3,11 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/numeric.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/numeric.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
 
 using namespace boost::python;
 namespace py = boost::python;

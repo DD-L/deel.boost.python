@@ -6,8 +6,8 @@
 //  The author gratefully acknowleges the support of Dragon Systems, Inc., in
 //  producing this work.
 
-#include <boost/python/scope.hpp>
-#include <boost/python/object/add_to_namespace.hpp>
+#include <deel.boost.python/revise/boost/python/scope.hpp>
+#include <deel.boost.python/revise/boost/python/object/add_to_namespace.hpp>
 
 namespace boost { namespace python { namespace detail {
 

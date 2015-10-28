@@ -11,19 +11,19 @@
 # ifndef SIGNATURE_JDG20020813_HPP
 #  define SIGNATURE_JDG20020813_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
 # include <boost/mpl/if.hpp>
 # include <boost/type_traits/is_convertible.hpp>
 
-#  include <boost/python/detail/preprocessor.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
 #  include <boost/preprocessor/repeat.hpp>
 #  include <boost/preprocessor/enum.hpp>
 #  include <boost/preprocessor/enum_params.hpp>
 #  include <boost/preprocessor/empty.hpp>
 #  include <boost/preprocessor/arithmetic/sub.hpp>
 #  include <boost/preprocessor/iterate.hpp>
-#  include <boost/python/detail/type_list.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/type_list.hpp>
 
 #  include <boost/preprocessor/debug/line.hpp>
 #  include <boost/preprocessor/arithmetic/sub.hpp>

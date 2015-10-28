@@ -6,9 +6,9 @@
 #ifndef VECTOR_INDEXING_SUITE_JDG20036_HPP
 # define VECTOR_INDEXING_SUITE_JDG20036_HPP
 
-# include <boost/python/suite/indexing/indexing_suite.hpp>
-# include <boost/python/suite/indexing/container_utils.hpp>
-# include <boost/python/iterator.hpp>
+# include <deel.boost.python/revise/boost/python/suite/indexing/indexing_suite.hpp>
+# include <deel.boost.python/revise/boost/python/suite/indexing/container_utils.hpp>
+# include <deel.boost.python/revise/boost/python/iterator.hpp>
 
 namespace boost { namespace python {
             

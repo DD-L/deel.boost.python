@@ -29,8 +29,8 @@ extern "C" void (*old_translator)(unsigned, EXCEPTION_POINTERS*)
 #endif // _WIN32
 
 #include <exception>
-#include <boost/python/extract.hpp>
-#include <boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
 struct test_failure : std::exception
 {
     test_failure(char const* expr, char const* /*function*/, char const* file, unsigned line)

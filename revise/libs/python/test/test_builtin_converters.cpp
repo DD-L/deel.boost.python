@@ -2,13 +2,13 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
 #include <complex>
-#include <boost/python/handle.hpp>
-#include <boost/python/cast.hpp>
-#include <boost/python/object.hpp>
-#include <boost/python/detail/wrap_python.hpp>
+#include <deel.boost.python/revise/boost/python/handle.hpp>
+#include <deel.boost.python/revise/boost/python/cast.hpp>
+#include <deel.boost.python/revise/boost/python/object.hpp>
+#include <deel.boost.python/revise/boost/python/detail/wrap_python.hpp>
 
 template <class T>
 struct by_value

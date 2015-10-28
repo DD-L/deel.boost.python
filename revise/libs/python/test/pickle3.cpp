@@ -17,13 +17,13 @@
     For more information refer to boost/libs/python/doc/pickle.html.
  */
 
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/dict.hpp>
-#include <boost/python/extract.hpp>
-#include <boost/python/back_reference.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/dict.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/back_reference.hpp>
 
 namespace boost_python_test {
 

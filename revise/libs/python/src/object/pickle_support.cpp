@@ -3,12 +3,12 @@
 //  accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/make_function.hpp>
-#include <boost/python/object/class.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/list.hpp>
-#include <boost/python/dict.hpp>
-#include <boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/make_function.hpp>
+#include <deel.boost.python/revise/boost/python/object/class.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/list.hpp>
+#include <deel.boost.python/revise/boost/python/dict.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
 
 namespace boost { namespace python {
 

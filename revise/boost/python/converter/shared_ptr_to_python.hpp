@@ -5,8 +5,8 @@
 #ifndef SHARED_PTR_TO_PYTHON_DWA2003224_HPP
 # define SHARED_PTR_TO_PYTHON_DWA2003224_HPP
 
-# include <boost/python/refcount.hpp>
-# include <boost/python/converter/shared_ptr_deleter.hpp>
+# include <deel.boost.python/revise/boost/python/refcount.hpp>
+# include <deel.boost.python/revise/boost/python/converter/shared_ptr_deleter.hpp>
 # include <boost/shared_ptr.hpp>
 # include <boost/get_pointer.hpp>
 

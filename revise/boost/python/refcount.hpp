@@ -5,8 +5,8 @@
 #ifndef REFCOUNT_DWA2002615_HPP
 # define REFCOUNT_DWA2002615_HPP
 
-# include <boost/python/detail/prefix.hpp>
-# include <boost/python/cast.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/cast.hpp>
 
 namespace boost { namespace python { 
 

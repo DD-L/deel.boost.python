@@ -5,11 +5,11 @@
 #ifndef RAW_FUNCTION_DWA200336_HPP
 # define RAW_FUNCTION_DWA200336_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/tuple.hpp>
-# include <boost/python/dict.hpp>
-# include <boost/python/object/py_function.hpp>
+# include <deel.boost.python/revise/boost/python/tuple.hpp>
+# include <deel.boost.python/revise/boost/python/dict.hpp>
+# include <deel.boost.python/revise/boost/python/object/py_function.hpp>
 # include <boost/mpl/vector/vector10.hpp>
 
 # include <boost/limits.hpp>

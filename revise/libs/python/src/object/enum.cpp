@@ -3,15 +3,15 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/object/enum_base.hpp>
-#include <boost/python/cast.hpp>
-#include <boost/python/scope.hpp>
-#include <boost/python/object.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/dict.hpp>
-#include <boost/python/str.hpp>
-#include <boost/python/extract.hpp>
-#include <boost/python/object_protocol.hpp>
+#include <deel.boost.python/revise/boost/python/object/enum_base.hpp>
+#include <deel.boost.python/revise/boost/python/cast.hpp>
+#include <deel.boost.python/revise/boost/python/scope.hpp>
+#include <deel.boost.python/revise/boost/python/object.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/dict.hpp>
+#include <deel.boost.python/revise/boost/python/str.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/object_protocol.hpp>
 #include <structmember.h>
 
 namespace boost { namespace python { namespace objects {

@@ -5,10 +5,10 @@
 #ifndef NUMARRAY_DWA2002922_HPP
 # define NUMARRAY_DWA2002922_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/tuple.hpp>
-# include <boost/python/str.hpp>
+# include <deel.boost.python/revise/boost/python/tuple.hpp>
+# include <deel.boost.python/revise/boost/python/str.hpp>
 # include <boost/preprocessor/iteration/local.hpp>
 # include <boost/preprocessor/cat.hpp>
 # include <boost/preprocessor/repetition/enum.hpp>

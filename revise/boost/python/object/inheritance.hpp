@@ -5,7 +5,7 @@
 #ifndef INHERITANCE_DWA200216_HPP
 # define INHERITANCE_DWA200216_HPP
 
-# include <boost/python/type_id.hpp>
+# include <deel.boost.python/revise/boost/python/type_id.hpp>
 # include <boost/shared_ptr.hpp>
 # include <boost/mpl/if.hpp>
 # include <boost/type_traits/is_polymorphic.hpp>

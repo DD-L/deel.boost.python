@@ -9,12 +9,12 @@
 #ifndef INIT_JDG20020820_HPP
 #define INIT_JDG20020820_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-#include <boost/python/detail/type_list.hpp>
-#include <boost/python/args_fwd.hpp>
-#include <boost/python/detail/make_keyword_range_fn.hpp>
-#include <boost/python/def_visitor.hpp>
+#include <deel.boost.python/revise/boost/python/detail/type_list.hpp>
+#include <deel.boost.python/revise/boost/python/args_fwd.hpp>
+#include <deel.boost.python/revise/boost/python/detail/make_keyword_range_fn.hpp>
+#include <deel.boost.python/revise/boost/python/def_visitor.hpp>
 
 #include <boost/mpl/if.hpp>
 #include <boost/mpl/eval_if.hpp>
@@ -225,6 +225,7 @@ class init : public init_base<init<BOOST_PYTHON_OVERLOAD_ARGS> >
         typedef typename detail::error::more_keywords_than_init_arguments<
             N, n_arguments::value + 1
             >::too_many_keywords assertion;
+        assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
     }
 
     template <std::size_t N>
@@ -234,6 +235,7 @@ class init : public init_base<init<BOOST_PYTHON_OVERLOAD_ARGS> >
         typedef typename detail::error::more_keywords_than_init_arguments<
             N, n_arguments::value + 1
             >::too_many_keywords assertion;
+        assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
     }
 
     template <class CallPoliciesT>

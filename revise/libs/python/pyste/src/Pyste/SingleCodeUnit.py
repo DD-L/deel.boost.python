@@ -85,7 +85,7 @@ class SingleCodeUnit:
             fout.write('#endif\n') 
         else:
             fout.write(left_equals('Boost Includes'))        
-            fout.write('#include <boost/python.hpp>\n')
+            fout.write('#include <deel.boost.python/revise/boost/python.hpp>\n')
             # include numerical boost for int64 definitions
             fout.write('#include <boost/cstdint.hpp>\n') 
         fout.write('\n')

@@ -7,30 +7,30 @@
 
 # define BOOST_PYTHON_OBJECT_HAS_IS_NONE // added 2010-03-15 by rwgk
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
 # include <boost/type.hpp>
 
-# include <boost/python/call.hpp>
-# include <boost/python/handle_fwd.hpp>
-# include <boost/python/errors.hpp>
-# include <boost/python/refcount.hpp>
-# include <boost/python/detail/preprocessor.hpp>
-# include <boost/python/tag.hpp>
-# include <boost/python/def_visitor.hpp>
+# include <deel.boost.python/revise/boost/python/call.hpp>
+# include <deel.boost.python/revise/boost/python/handle_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/errors.hpp>
+# include <deel.boost.python/revise/boost/python/refcount.hpp>
+# include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
+# include <deel.boost.python/revise/boost/python/tag.hpp>
+# include <deel.boost.python/revise/boost/python/def_visitor.hpp>
 
-# include <boost/python/detail/raw_pyobject.hpp>
-# include <boost/python/detail/dependent.hpp>
+# include <deel.boost.python/revise/boost/python/detail/raw_pyobject.hpp>
+# include <deel.boost.python/revise/boost/python/detail/dependent.hpp>
 
-# include <boost/python/object/forward.hpp>
-# include <boost/python/object/add_to_namespace.hpp>
+# include <deel.boost.python/revise/boost/python/object/forward.hpp>
+# include <deel.boost.python/revise/boost/python/object/add_to_namespace.hpp>
 
 # include <boost/preprocessor/iterate.hpp>
 # include <boost/preprocessor/debug/line.hpp>
 
-# include <boost/python/detail/is_xxx.hpp>
-# include <boost/python/detail/string_literal.hpp>
-# include <boost/python/detail/def_helper_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/detail/is_xxx.hpp>
+# include <deel.boost.python/revise/boost/python/detail/string_literal.hpp>
+# include <deel.boost.python/revise/boost/python/detail/def_helper_fwd.hpp>
 
 # include <boost/type_traits/is_same.hpp>
 # include <boost/type_traits/is_convertible.hpp>
@@ -477,6 +477,6 @@ inline PyObject* get_managed_object(object const& x, tag_t)
 
 }} // namespace boost::python
 
-# include <boost/python/slice_nil.hpp>
+# include <deel.boost.python/revise/boost/python/slice_nil.hpp>
 
 #endif // OBJECT_CORE_DWA2002615_HPP

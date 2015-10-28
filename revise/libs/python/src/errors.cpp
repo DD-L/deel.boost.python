@@ -7,9 +7,9 @@
 # define BOOST_PYTHON_SOURCE
 #endif
 
-#include <boost/python/errors.hpp>
+#include <deel.boost.python/revise/boost/python/errors.hpp>
 #include <boost/cast.hpp>
-#include <boost/python/detail/exception_handler.hpp>
+#include <deel.boost.python/revise/boost/python/detail/exception_handler.hpp>
 
 namespace boost { namespace python {
 

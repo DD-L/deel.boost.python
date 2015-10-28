@@ -8,17 +8,17 @@
 # ifndef VALUE_HOLDER_DWA20011215_HPP
 #  define VALUE_HOLDER_DWA20011215_HPP 
 
-#  include <boost/python/object/value_holder_fwd.hpp>
+#  include <deel.boost.python/revise/boost/python/object/value_holder_fwd.hpp>
 
-#  include <boost/python/instance_holder.hpp>
-#  include <boost/python/type_id.hpp>
-#  include <boost/python/wrapper.hpp>
+#  include <deel.boost.python/revise/boost/python/instance_holder.hpp>
+#  include <deel.boost.python/revise/boost/python/type_id.hpp>
+#  include <deel.boost.python/revise/boost/python/wrapper.hpp>
 
-#  include <boost/python/object/inheritance_query.hpp>
-#  include <boost/python/object/forward.hpp>
+#  include <deel.boost.python/revise/boost/python/object/inheritance_query.hpp>
+#  include <deel.boost.python/revise/boost/python/object/forward.hpp>
 
-#  include <boost/python/detail/force_instantiate.hpp>
-#  include <boost/python/detail/preprocessor.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/force_instantiate.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
 
 #  include <boost/preprocessor/comma_if.hpp>
 #  include <boost/preprocessor/enum_params.hpp>

@@ -5,11 +5,11 @@
 #ifndef MAKE_INSTANCE_DWA200296_HPP
 # define MAKE_INSTANCE_DWA200296_HPP
 
-# include <boost/python/detail/prefix.hpp>
-# include <boost/python/object/instance.hpp>
-# include <boost/python/converter/registered.hpp>
-# include <boost/python/detail/decref_guard.hpp>
-# include <boost/python/detail/none.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/object/instance.hpp>
+# include <deel.boost.python/revise/boost/python/converter/registered.hpp>
+# include <deel.boost.python/revise/boost/python/detail/decref_guard.hpp>
+# include <deel.boost.python/revise/boost/python/detail/none.hpp>
 # include <boost/mpl/assert.hpp>
 # include <boost/mpl/or.hpp>
 # include <boost/type_traits/is_union.hpp>

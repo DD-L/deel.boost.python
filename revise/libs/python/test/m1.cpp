@@ -4,16 +4,16 @@
 // http://www.boost.org/LICENSE_1_0.txt)
 
 
-#include <boost/python/def.hpp>
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/lvalue_from_pytype.hpp>
-#include <boost/python/copy_const_reference.hpp>
-#include <boost/python/return_value_policy.hpp>
-#include <boost/python/to_python_converter.hpp>
-#include <boost/python/errors.hpp>
-#include <boost/python/manage_new_object.hpp>
-#include <boost/python/converter/pytype_function.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/lvalue_from_pytype.hpp>
+#include <deel.boost.python/revise/boost/python/copy_const_reference.hpp>
+#include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
+#include <deel.boost.python/revise/boost/python/to_python_converter.hpp>
+#include <deel.boost.python/revise/boost/python/errors.hpp>
+#include <deel.boost.python/revise/boost/python/manage_new_object.hpp>
+#include <deel.boost.python/revise/boost/python/converter/pytype_function.hpp>
 #include <string.h>
 #include "simple_type.hpp"
 #include "complicated.hpp"

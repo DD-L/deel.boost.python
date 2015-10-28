@@ -5,10 +5,10 @@
 #ifndef DEF_HELPER_DWA200287_HPP
 # define DEF_HELPER_DWA200287_HPP
 
-# include <boost/python/args.hpp>
+# include <deel.boost.python/revise/boost/python/args.hpp>
 # include <boost/type_traits/ice.hpp>
 # include <boost/type_traits/same_traits.hpp>
-# include <boost/python/detail/indirect_traits.hpp>
+# include <deel.boost.python/revise/boost/python/detail/indirect_traits.hpp>
 # include <boost/mpl/not.hpp>
 # include <boost/mpl/and.hpp>
 # include <boost/mpl/or.hpp>
@@ -16,8 +16,8 @@
 # include <boost/mpl/lambda.hpp>
 # include <boost/mpl/apply.hpp>
 # include <boost/tuple/tuple.hpp>
-# include <boost/python/detail/not_specified.hpp>
-# include <boost/python/detail/def_helper_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/detail/not_specified.hpp>
+# include <deel.boost.python/revise/boost/python/detail/def_helper_fwd.hpp>
 
 namespace boost { namespace python {
 

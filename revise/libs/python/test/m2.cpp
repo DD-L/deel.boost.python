@@ -6,11 +6,11 @@
 // This module exercises the converters exposed in m1 at a low level
 // by exposing raw Python extension functions that use wrap<> and
 // unwrap<> objects.
-#include <boost/python/module.hpp>
-#include <boost/python/def.hpp>
-#include <boost/python/copy_non_const_reference.hpp>
-#include <boost/python/copy_const_reference.hpp>
-#include <boost/python/return_value_policy.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/copy_non_const_reference.hpp>
+#include <deel.boost.python/revise/boost/python/copy_const_reference.hpp>
+#include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
 #include "simple_type.hpp"
 
 #if PY_VERSION_HEX >= 0x03000000

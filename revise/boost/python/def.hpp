@@ -5,15 +5,15 @@
 #ifndef DEF_DWA200292_HPP
 # define DEF_DWA200292_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/object_fwd.hpp>
-# include <boost/python/make_function.hpp>
-# include <boost/python/detail/def_helper.hpp>
-# include <boost/python/detail/overloads_fwd.hpp>
-# include <boost/python/scope.hpp>
-# include <boost/python/signature.hpp>
-# include <boost/python/detail/scope.hpp>
+# include <deel.boost.python/revise/boost/python/object_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/make_function.hpp>
+# include <deel.boost.python/revise/boost/python/detail/def_helper.hpp>
+# include <deel.boost.python/revise/boost/python/detail/overloads_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/scope.hpp>
+# include <deel.boost.python/revise/boost/python/signature.hpp>
+# include <deel.boost.python/revise/boost/python/detail/scope.hpp>
 
 namespace boost { namespace python {
 
@@ -38,6 +38,7 @@ namespace detail
       typedef typename error::multiple_functions_passed_to_def<
           Helper::has_default_implementation
           >::type assertion;
+      assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
       
       detail::scope_setattr_doc(
           name, boost::python::make_function(

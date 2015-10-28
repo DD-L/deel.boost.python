@@ -5,18 +5,18 @@
 #ifndef TO_PYTHON_INDIRECT_DWA200221_HPP
 # define TO_PYTHON_INDIRECT_DWA200221_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/object/pointer_holder.hpp>
-# include <boost/python/object/make_ptr_instance.hpp>
+# include <deel.boost.python/revise/boost/python/object/pointer_holder.hpp>
+# include <deel.boost.python/revise/boost/python/object/make_ptr_instance.hpp>
 
-# include <boost/python/detail/none.hpp>
+# include <deel.boost.python/revise/boost/python/detail/none.hpp>
 
 #ifndef BOOST_PYTHON_NO_PY_SIGNATURES
-# include <boost/python/converter/pytype_function.hpp>
+# include <deel.boost.python/revise/boost/python/converter/pytype_function.hpp>
 #endif
 
-# include <boost/python/refcount.hpp>
+# include <deel.boost.python/revise/boost/python/refcount.hpp>
 
 # include <boost/type_traits/is_pointer.hpp>
 # include <boost/type_traits/is_polymorphic.hpp>

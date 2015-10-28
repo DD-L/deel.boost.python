@@ -2,9 +2,9 @@
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/object/class_metadata.hpp>
-#include <boost/python/has_back_reference.hpp>
-#include <boost/python/detail/not_specified.hpp>
+#include <deel.boost.python/revise/boost/python/object/class_metadata.hpp>
+#include <deel.boost.python/revise/boost/python/has_back_reference.hpp>
+#include <deel.boost.python/revise/boost/python/detail/not_specified.hpp>
 #include <boost/static_assert.hpp>
 #include <boost/type_traits/same_traits.hpp>
 #include <boost/function/function0.hpp>

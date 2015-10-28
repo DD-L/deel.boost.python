@@ -5,10 +5,10 @@
 #ifndef TUPLE_20020706_HPP
 #define TUPLE_20020706_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-#include <boost/python/object.hpp>
-#include <boost/python/converter/pytype_object_mgr_traits.hpp>
+#include <deel.boost.python/revise/boost/python/object.hpp>
+#include <deel.boost.python/revise/boost/python/converter/pytype_object_mgr_traits.hpp>
 #include <boost/preprocessor/enum_params.hpp>
 #include <boost/preprocessor/repetition/enum_binary_params.hpp>
 

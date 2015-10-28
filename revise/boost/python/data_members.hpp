@@ -5,20 +5,20 @@
 #ifndef DATA_MEMBERS_DWA2002328_HPP
 # define DATA_MEMBERS_DWA2002328_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
 
-# include <boost/python/return_value_policy.hpp>
-# include <boost/python/return_by_value.hpp>
-# include <boost/python/return_internal_reference.hpp>
-# include <boost/python/make_function.hpp>
+# include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
+# include <deel.boost.python/revise/boost/python/return_by_value.hpp>
+# include <deel.boost.python/revise/boost/python/return_internal_reference.hpp>
+# include <deel.boost.python/revise/boost/python/make_function.hpp>
 
-# include <boost/python/converter/builtin_converters.hpp>
+# include <deel.boost.python/revise/boost/python/converter/builtin_converters.hpp>
 
-# include <boost/python/detail/indirect_traits.hpp>
-# include <boost/python/detail/not_specified.hpp>
-# include <boost/python/detail/value_arg.hpp>
+# include <deel.boost.python/revise/boost/python/detail/indirect_traits.hpp>
+# include <deel.boost.python/revise/boost/python/detail/not_specified.hpp>
+# include <deel.boost.python/revise/boost/python/detail/value_arg.hpp>
 
 # include <boost/type_traits/add_const.hpp>
 # include <boost/type_traits/add_reference.hpp>

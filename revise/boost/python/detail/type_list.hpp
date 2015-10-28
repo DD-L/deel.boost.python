@@ -6,7 +6,7 @@
 # define TYPE_LIST_DWA2002913_HPP
 
 # include <boost/config.hpp>
-# include <boost/python/detail/preprocessor.hpp>
+# include <deel.boost.python/revise/boost/python/detail/preprocessor.hpp>
 # include <boost/preprocessor/arithmetic/inc.hpp>
 
 # if BOOST_PYTHON_MAX_ARITY + 2 > BOOST_PYTHON_MAX_BASES
@@ -30,6 +30,6 @@
 #  include <boost/mpl/vector/vector10.hpp>
 # endif
 
-#  include <boost/python/detail/type_list_impl.hpp>
+#  include <deel.boost.python/revise/boost/python/detail/type_list_impl.hpp>
 
 #endif // TYPE_LIST_DWA2002913_HPP

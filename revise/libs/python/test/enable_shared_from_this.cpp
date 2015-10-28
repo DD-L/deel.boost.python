@@ -3,11 +3,11 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/module.hpp>
-#include <boost/python/class.hpp>
-#include <boost/python/call_method.hpp>
-#include <boost/python/extract.hpp>
-#include <boost/python/def.hpp>
+#include <deel.boost.python/revise/boost/python/module.hpp>
+#include <deel.boost.python/revise/boost/python/class.hpp>
+#include <deel.boost.python/revise/boost/python/call_method.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/def.hpp>
 #include <boost/enable_shared_from_this.hpp>
 #include <boost/shared_ptr.hpp>
 #include "test_class.hpp"

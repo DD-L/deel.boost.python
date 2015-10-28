@@ -3,7 +3,7 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python.hpp>
+#include <deel.boost.python/revise/boost/python.hpp>
 
 namespace python = boost::python;
 

@@ -5,19 +5,19 @@
 #ifndef MAKE_CONSTRUCTOR_DWA20011221_HPP
 # define MAKE_CONSTRUCTOR_DWA20011221_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/default_call_policies.hpp>
-# include <boost/python/args.hpp>
-# include <boost/python/object_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/default_call_policies.hpp>
+# include <deel.boost.python/revise/boost/python/args.hpp>
+# include <deel.boost.python/revise/boost/python/object_fwd.hpp>
 
-# include <boost/python/object/function_object.hpp>
-# include <boost/python/object/make_holder.hpp>
-# include <boost/python/object/pointer_holder.hpp>
-# include <boost/python/converter/context_result_converter.hpp>
+# include <deel.boost.python/revise/boost/python/object/function_object.hpp>
+# include <deel.boost.python/revise/boost/python/object/make_holder.hpp>
+# include <deel.boost.python/revise/boost/python/object/pointer_holder.hpp>
+# include <deel.boost.python/revise/boost/python/converter/context_result_converter.hpp>
 
-# include <boost/python/detail/caller.hpp>
-# include <boost/python/detail/none.hpp>
+# include <deel.boost.python/revise/boost/python/detail/caller.hpp>
+# include <deel.boost.python/revise/boost/python/detail/none.hpp>
 
 # include <boost/mpl/size.hpp>
 # include <boost/mpl/int.hpp>
@@ -175,6 +175,7 @@ namespace detail
       typedef typename detail::error::more_keywords_than_function_arguments<
           NumKeywords::value, arity
           >::too_many_keywords assertion;
+      assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
     
       typedef typename outer_constructor_signature<Sig>::type outer_signature;
 

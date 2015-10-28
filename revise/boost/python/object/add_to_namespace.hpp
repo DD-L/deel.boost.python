@@ -5,7 +5,7 @@
 #ifndef ADD_TO_NAMESPACE_DWA200286_HPP
 # define ADD_TO_NAMESPACE_DWA200286_HPP
 
-# include <boost/python/object_fwd.hpp>
+# include <deel.boost.python/revise/boost/python/object_fwd.hpp>
 
 namespace boost { namespace python { namespace objects { 
 

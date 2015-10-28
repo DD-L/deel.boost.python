@@ -1,10 +1,10 @@
 // Copyright David Abrahams 2004. Distributed under the Boost
 // Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-#include <boost/python/converter/arg_to_python.hpp>
-#include <boost/python/type_id.hpp>
-#include <boost/python/handle.hpp>
-#include <boost/python/object.hpp>
+#include <deel.boost.python/revise/boost/python/converter/arg_to_python.hpp>
+#include <deel.boost.python/revise/boost/python/type_id.hpp>
+#include <deel.boost.python/revise/boost/python/handle.hpp>
+#include <deel.boost.python/revise/boost/python/object.hpp>
 #include <iostream>
 
 // gcc 2.95.x and MIPSpro 7.3.1.3 linker seem to demand this definition

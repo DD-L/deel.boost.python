@@ -6,7 +6,7 @@
 #include <boost/assert.hpp>
 #include <boost/type_traits/is_member_function_pointer.hpp>
 #include <boost/mpl/assert.hpp>
-#include <boost/python/detail/indirect_traits.hpp>
+#include <deel.boost.python/revise/boost/python/detail/indirect_traits.hpp>
 #include <boost/mpl/assert.hpp>
 
 //#define print(expr) printf("%s ==> %s\n", #expr, expr)

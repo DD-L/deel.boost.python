@@ -4,10 +4,10 @@
 // http://www.boost.org/LICENSE_1_0.txt)
 #ifndef BUILTIN_CONVERTERS_DWA2002124_HPP
 # define BUILTIN_CONVERTERS_DWA2002124_HPP
-# include <boost/python/detail/prefix.hpp>
-# include <boost/python/detail/none.hpp>
-# include <boost/python/handle.hpp>
-# include <boost/python/ssize_t.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/none.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/ssize_t.hpp>
 # include <boost/implicit_cast.hpp>
 # include <string>
 # include <complex>

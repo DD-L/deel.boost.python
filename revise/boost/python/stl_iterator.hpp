@@ -5,9 +5,9 @@
 #ifndef STL_ITERATOR_EAN20051028_HPP
 # define STL_ITERATOR_EAN20051028_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/object/stl_iterator_core.hpp>
+# include <deel.boost.python/revise/boost/python/object/stl_iterator_core.hpp>
 
 # include <boost/iterator/iterator_facade.hpp>
 

@@ -3,12 +3,12 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 
-#include <boost/python/numeric.hpp>
-#include <boost/python/handle.hpp>
-#include <boost/python/cast.hpp>
-#include <boost/python/tuple.hpp>
-#include <boost/python/detail/raw_pyobject.hpp>
-#include <boost/python/extract.hpp>
+#include <deel.boost.python/revise/boost/python/numeric.hpp>
+#include <deel.boost.python/revise/boost/python/handle.hpp>
+#include <deel.boost.python/revise/boost/python/cast.hpp>
+#include <deel.boost.python/revise/boost/python/tuple.hpp>
+#include <deel.boost.python/revise/boost/python/detail/raw_pyobject.hpp>
+#include <deel.boost.python/revise/boost/python/extract.hpp>
 
 namespace boost { namespace python { namespace numeric {
 

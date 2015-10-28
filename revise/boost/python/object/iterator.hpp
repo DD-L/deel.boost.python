@@ -5,22 +5,22 @@
 #ifndef ITERATOR_DWA2002510_HPP
 # define ITERATOR_DWA2002510_HPP
 
-# include <boost/python/detail/prefix.hpp>
+# include <deel.boost.python/revise/boost/python/detail/prefix.hpp>
 
-# include <boost/python/class.hpp>
-# include <boost/python/return_value_policy.hpp>
-# include <boost/python/return_by_value.hpp>
-# include <boost/python/handle.hpp>
-# include <boost/python/make_function.hpp>
+# include <deel.boost.python/revise/boost/python/class.hpp>
+# include <deel.boost.python/revise/boost/python/return_value_policy.hpp>
+# include <deel.boost.python/revise/boost/python/return_by_value.hpp>
+# include <deel.boost.python/revise/boost/python/handle.hpp>
+# include <deel.boost.python/revise/boost/python/make_function.hpp>
 
-# include <boost/python/object/iterator_core.hpp>
-# include <boost/python/object/class_detail.hpp>
-# include <boost/python/object/function_object.hpp>
+# include <deel.boost.python/revise/boost/python/object/iterator_core.hpp>
+# include <deel.boost.python/revise/boost/python/object/class_detail.hpp>
+# include <deel.boost.python/revise/boost/python/object/function_object.hpp>
 
 # include <boost/mpl/vector/vector10.hpp>
 # include <boost/mpl/if.hpp>
 
-# include <boost/python/detail/raw_pyobject.hpp>
+# include <deel.boost.python/revise/boost/python/detail/raw_pyobject.hpp>
 
 # include <boost/type.hpp>
 
