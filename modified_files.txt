@@ -1,0 +1,154 @@
+﻿1. deel.boost.python/revise/boost/python/cast.hpp:73
+
+   template <class T>
+   inline void assert_castable(boost::type<T>* = 0)
+   {
+       typedef char must_be_a_complete_type[sizeof(T)];
++      must_be_a_complete_type* __cleanwarning = NULL; // by D_L
++      if (__cleanwarning);                            // by D_L
+   }
+   
+2. deel.boost.python/revise/boost/python/object/instance.hpp:14
+
+deel.boost.python/revise/boost/python/object/instance.hpp:14:36: 警告：类型属性在定义后被忽略 [-Wattributes]
+   struct BOOST_PYTHON_DECL_FORWARD instance_holder;
+                                    ^
+	warning: type attributes ignored after type is already defined [-Wattributes]
+
+	namespace boost { namespace python
+	{
++	#ifdef __CYGWIN__                                  // by D_L
++	  struct instance_holder;                          // by D_L
++	#else                                              // by D_L
+	  struct BOOST_PYTHON_DECL_FORWARD instance_holder;
++	#endif                                             // by D_L
+	}} // namespace boost::python
+
+
+
+
+3. deel.boost.python/revise/boost/python/make_function.hpp:58
+
+      typedef typename detail::error::more_keywords_than_function_arguments<
+          NumKeywords::value, arity
+          >::too_many_keywords assertion;
++     assertion* __cleanwarning = NULL; // by D_L
++     if (__cleanwarning);              // by D_L
+    
+      return objects::function_object(
+          detail::caller<F,CallPolicies,Sig>(f, p)
+        , kw);
+
+4. deel.boost.python/revise/boost/python/init.hpp:227/236
+
+    template <std::size_t N>
+    init(char const* doc_, detail::keywords<N> const& kw)
+        : base(doc_, kw.range())
+    {
+        typedef typename detail::error::more_keywords_than_init_arguments<
+            N, n_arguments::value + 1
+            >::too_many_keywords assertion;
++       assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
+    }
+
+    template <std::size_t N>
+    init(detail::keywords<N> const& kw, char const* doc_ = 0)
+        : base(doc_, kw.range())
+    {
+        typedef typename detail::error::more_keywords_than_init_arguments<
+            N, n_arguments::value + 1
+            >::too_many_keywords assertion;
++       assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
+    }
+
+5. deel.boost.python/revise/boost/python/object/pickle_support.hpp:110
+
+    template <class Class_>
+    static
+    void
+    register_(
+      Class_&,
+      ...)
+    {
+      typedef typename
+        error_messages::missing_pickle_suite_function_or_incorrect_signature<
+          Class_>::error_type error_type;
++     error_type* __cleanwarning = NULL; if (__cleanwarning); // by D_L
+    }
+  };
+  
+6. deel.boost.python/revise/boost/python/class.hpp:143/145
+
+    template <class T, class Fn>
+    struct virtual_function_default
+    {
+        template <class Default>
+        static void
+        must_be_derived_class_member(Default const&)
+        {
+            // https://svn.boost.org/trac/boost/ticket/5803
+            //typedef typename assertion<mpl::not_<is_same<Default,Fn> > >::failed test0;
+# if !BOOST_WORKAROUND(__MWERKS__, <= 0x2407)
+            typedef typename assertion<is_polymorphic<T> >::failed test1;
++           test1* __cleanwarning1 = NULL; if (__cleanwarning1); // by D_L
+# endif 
+            typedef typename assertion<is_member_function_pointer<Fn> >::failed test2;
++           test2* __cleanwarning2 = NULL; if (__cleanwarning2); // by D_L
+            not_a_derived_class_member<Default>(Fn());
+        }
+    };
+
+7. deel.boost.python/revise/boost/python/def.hpp:40
+
+  template <class F, class Helper>
+  void def_from_helper(
+      char const* name, F const& fn, Helper const& helper)
+  {
+      // Must not try to use default implementations except with method definitions.
+      typedef typename error::multiple_functions_passed_to_def<
+          Helper::has_default_implementation
+          >::type assertion;
++     assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
+      
+      detail::scope_setattr_doc(
+          name, boost::python::make_function(
+              fn
+              , helper.policies()
+              , helper.keywords())
+          , helper.doc()
+          );
+  }
+
+8. deel.boost.python/revise/boost/python/make_constructor.hpp:177
+
+  template <class F, class CallPolicies, class Sig, class NumKeywords>
+  object make_constructor_aux(
+      F f
+      , CallPolicies const& p
+      , Sig const&
+      , detail::keyword_range const& kw // a [begin,end) pair of iterators over keyword names
+      , NumKeywords                     // An MPL integral type wrapper: the size of kw
+      )
+  {
+      enum { arity = mpl::size<Sig>::value - 1 };
+      
+      typedef typename detail::error::more_keywords_than_function_arguments<
+          NumKeywords::value, arity
+          >::too_many_keywords assertion;
++     assertion* __cleanwarning = NULL; if (__cleanwarning); // by D_L
+    
+      typedef typename outer_constructor_signature<Sig>::type outer_signature;
+
+      typedef constructor_policy<CallPolicies> inner_policy;
+      
+      return objects::function_object(
+          objects::py_function(
+              detail::caller<F,inner_policy,Sig>(f, inner_policy(p))
+            , outer_signature()
+          )
+          , kw
+      );
+  }
+
+
+	
